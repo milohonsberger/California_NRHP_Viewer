@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Raw/unused source data not referenced by the notebook -- only
+# CA_Counties.gpkg, California_NRHP_Buildings.gpkg, and
+# California_NRHP_Site.gpkg are actually used.
+Data/NRIS_CR_Standards_Public.gdb/
+Data/State_of_California_Boundary_with_Bay_Cuts.geojson
+Data/State_of_California_Boundary_without_Bay_Cuts/
+Data/State_of_California_Boundary_without_Bay_Cuts.geojson
+Data/State_of_California_Boundary_without_Bay_Cuts.zip
+
+# Local scratch/preview files, not part of the published project
+preview_map.html
+scratch_check.html
+
+# QGIS project files, not part of the web viewer
+QGIS/
